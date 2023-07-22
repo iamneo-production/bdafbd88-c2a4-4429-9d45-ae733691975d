@@ -42,6 +42,9 @@ function Signup() {
       try {
         // eslint-disable-next-line
 <<<<<<< HEAD
+        const res = await axios.post('https://ide-fbbecaeeaafeeadfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/user/signup', values).then(res=>{if(res.data){
+=======
+<<<<<<< HEAD
         const res = await axios.post('https://ide-fbbeadafcdbacdfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/user/signup', values).then(res=>{if(res.data){
 =======
 <<<<<<< HEAD
@@ -50,6 +53,7 @@ function Signup() {
         const res = await axios.post('https://8080-eaefdaecbadadfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/user/signup', values).then(res=>{if(res.data){
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
             navigate('/user/login');
           }});
       } catch (err) {
@@ -161,6 +165,10 @@ export default Signup;
 <<<<<<< HEAD
 export default Signup;
 =======
+<<<<<<< HEAD
+export default Signup;
+=======
 export default Signup;
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34

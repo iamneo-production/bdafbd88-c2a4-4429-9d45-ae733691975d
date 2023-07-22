@@ -7,6 +7,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
   "dgSpecHash": "kYWkhbZkG53JqXkfK71x26Yvn1We3yCr+kmk9jUmH8Y3y/pogIwgRi0Q6S3v0z/cmmZAUROPfDEFS6mhcoxdZg==",
   "success": true,
@@ -54,6 +56,7 @@
 =======
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
   "dgSpecHash": "1FOWhR67jnDQ6PqqbGBequ/i0nv53eFxUmDxr/xKUej/IPe2nMqcFGNs1Woax9EN2cM4kzU1vebKdZb2S11RVQ==",
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/TestProject/TestProject.csproj",
@@ -70,16 +73,26 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 9d902128f2dd5c8880653f928f998f0c8a8de94e
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
     "/home/coder/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/home/coder/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit.analyzers/3.3.0/nunit.analyzers.3.3.0.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
+<<<<<<< HEAD
+    "/home/coder/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.diagnostics.debug/4.0.11/system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.diagnostics.tools/4.0.1/system.diagnostics.tools.4.0.1.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.dynamic.runtime/4.0.11/system.dynamic.runtime.4.0.11.nupkg.sha512",
+    "/home/coder/.nuget/packages/system.globalization/4.0.11/system.globalization.4.0.11.nupkg.sha512",
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -123,6 +136,7 @@
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
     "/home/coder/.nuget/packages/system.io/4.1.0/system.io.4.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.io.filesystem/4.0.1/system.io.filesystem.4.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.io.filesystem.primitives/4.0.1/system.io.filesystem.primitives.4.0.1.nupkg.sha512",
@@ -140,6 +154,8 @@
     "/home/coder/.nuget/packages/system.resources.resourcemanager/4.0.1/system.resources.resourcemanager.4.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime/4.1.0/system.runtime.4.1.0.nupkg.sha512",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     "/home/coder/.nuget/packages/system.runtime.caching/4.7.0/system.runtime.caching.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
 =======
@@ -155,10 +171,14 @@
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
     "/home/coder/.nuget/packages/system.runtime.extensions/4.1.0/system.runtime.extensions.4.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.handles/4.0.1/system.runtime.handles.4.0.1.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.interopservices/4.1.0/system.runtime.interopservices.4.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.runtime.serialization.primitives/4.1.1/system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
+<<<<<<< HEAD
+    "/home/coder/.nuget/packages/system.text.encoding/4.0.11/system.text.encoding.4.0.11.nupkg.sha512",
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -184,11 +204,14 @@
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
     "/home/coder/.nuget/packages/system.text.encoding.extensions/4.0.11/system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.text.regularexpressions/4.1.0/system.text.regularexpressions.4.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/system.threading/4.0.11/system.threading.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     "/home/coder/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
 =======
@@ -203,6 +226,7 @@
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 >>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
     "/home/coder/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
     "/home/coder/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
   ],

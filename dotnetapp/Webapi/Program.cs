@@ -1,12 +1,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 =======
 <<<<<<< HEAD
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,8 +26,11 @@ builder.Services.AddCors(options =>
 });
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -46,12 +52,15 @@ app.UseAuthorization();
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 app.MapControllers();
 
 app.Run();
 =======
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
 app.UseCors(builder =>
 {
     builder
@@ -62,6 +71,9 @@ app.UseCors(builder =>
 
 app.MapControllers();
 
+<<<<<<< HEAD
+app.Run();
+=======
 <<<<<<< HEAD
 app.Run();
 =======
@@ -115,3 +127,4 @@ app.Run();
 app.Run();
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 >>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
