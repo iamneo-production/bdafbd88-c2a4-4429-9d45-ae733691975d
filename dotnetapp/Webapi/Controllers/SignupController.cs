@@ -13,6 +13,8 @@ namespace Webapi.Controllers
             BusinessLayer dal = new BusinessLayer();
             return Created("",dal.SaveUser(user));
         }
+<<<<<<< HEAD
+=======
 
         BusinessLayer dal = new BusinessLayer();
         [HttpGet]
@@ -51,5 +53,6 @@ namespace Webapi.Controllers
         }
 
 
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
     }
 }

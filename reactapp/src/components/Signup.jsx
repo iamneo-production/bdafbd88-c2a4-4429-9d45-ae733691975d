@@ -41,7 +41,7 @@ function Signup() {
     ) {
       try {
         // eslint-disable-next-line
-        const res = await axios.post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/user/signup/', values).then(res=>{if(res.data){
+        const res = await axios.post('https://8080-eaefdaecbadadfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/user/signup', values).then(res=>{if(res.data){
             navigate('/user/login');
           }});
       } catch (err) {

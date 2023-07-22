@@ -9,8 +9,11 @@
       "Webapi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Cors": "2.2.0",
+<<<<<<< HEAD
+=======
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.1",
           "Newtonsoft.Json": "13.0.3",
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
           "Swashbuckle.AspNetCore": "6.2.3",
           "System.Data.SqlClient": "4.8.5"
         },
@@ -46,6 +49,8 @@
           "Microsoft.Extensions.Primitives": "2.2.0"
         }
       },
+<<<<<<< HEAD
+=======
       "Microsoft.AspNetCore.JsonPatch/6.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -72,6 +77,7 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Configuration.Abstractions/2.2.0": {
         "dependencies": {
@@ -119,6 +125,8 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
+<<<<<<< HEAD
+=======
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -138,6 +146,7 @@
           }
         }
       },
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "dependencies": {
           "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
@@ -285,6 +294,8 @@
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
     "Microsoft.AspNetCore.JsonPatch/6.0.1": {
       "type": "package",
       "serviceable": true,
@@ -306,6 +317,7 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -383,6 +395,8 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
@@ -397,6 +411,7 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "type": "package",
       "serviceable": true,
