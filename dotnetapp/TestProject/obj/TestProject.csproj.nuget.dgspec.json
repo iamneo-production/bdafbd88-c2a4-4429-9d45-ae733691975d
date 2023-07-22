@@ -25,11 +25,29 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            "projectReferences": {}
+=======
+<<<<<<< HEAD
+            "projectReferences": {}
+=======
+<<<<<<< HEAD
+>>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
             "projectReferences": {
               "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
                 "projectPath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj"
               }
             }
+<<<<<<< HEAD
+=======
+=======
+            "projectReferences": {}
+>>>>>>> 9d902128f2dd5c8880653f928f998f0c8a8de94e
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
           }
         },
         "warningProperties": {
@@ -82,6 +100,14 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
     },
     "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
       "version": "1.0.0",
@@ -170,6 +196,13 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9d902128f2dd5c8880653f928f998f0c8a8de94e
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
     }
   }
 }
