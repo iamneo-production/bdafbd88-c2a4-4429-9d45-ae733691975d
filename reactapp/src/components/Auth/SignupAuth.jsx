@@ -1,7 +1,7 @@
 function SignupAuth(values) {
     let error = {}
     const email_pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
-    const password_pattern = /^[a-zA-Z0-9@]{8,}$/
+    const password_pattern = /^[a-zA-Z0-9]{8,}$/
     const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character
     const mobilenumber_pattern = /^[0-9]{10}$/
   
@@ -29,7 +29,7 @@ function SignupAuth(values) {
     } else {
         error.confirmPassword = "";
     }
-  
+
     if (!values.username) {
       error.username = "Username should not be empty";
     } else if (!username_pattern.test(values.username)) {
@@ -56,12 +56,5 @@ function SignupAuth(values) {
     return error;
   }
   
-<<<<<<< HEAD
-  export default SignupAuth;
-=======
-<<<<<<< HEAD
-  export default SignupAuth;
-=======
-  export default SignupAuth;
->>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
->>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
+  export default SignupAuth;
+  
