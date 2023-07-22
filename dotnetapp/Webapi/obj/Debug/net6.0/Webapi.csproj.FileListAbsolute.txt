@@ -31,3 +31,7 @@
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.pdb
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/ref/Webapi.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
