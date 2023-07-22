@@ -14,5 +14,9 @@ namespace Webapi
         public string mobileNumber { get; set; }
         public string userRole { get; set; }
     }
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
