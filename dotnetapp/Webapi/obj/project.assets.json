@@ -76,6 +76,8 @@
       },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
       "Microsoft.AspNetCore.JsonPatch/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -124,6 +126,7 @@
         }
       },
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -296,6 +299,8 @@
       },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -326,6 +331,7 @@
         }
       },
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -608,6 +614,8 @@
     },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
     "Microsoft.AspNetCore.JsonPatch/6.0.1": {
       "sha512": "vLgQbgudEQfGNaGyAvm+jlfLHu5Ynav8/RnhwM0QaKFjVW2crEOGm7tRHHjM5iofF8VZnEYfyvUvyK82dBej1w==",
       "type": "package",
@@ -712,6 +720,7 @@
       ]
     },
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -913,6 +922,8 @@
     },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -965,6 +976,7 @@
       ]
     },
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -1488,9 +1500,12 @@
       "Microsoft.AspNetCore.Cors >= 2.2.0",
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.1",
       "Newtonsoft.Json >= 13.0.3",
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.Data.SqlClient >= 4.8.5"
     ]
@@ -1538,6 +1553,8 @@
           },
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[6.0.1, )"
@@ -1547,6 +1564,7 @@
             "version": "[13.0.3, )"
           },
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -1581,6 +1599,9 @@
 <<<<<<< HEAD
   }
 =======
+<<<<<<< HEAD
+  }
+=======
   },
   "logs": [
     {
@@ -1591,4 +1612,5 @@
     }
   ]
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
 }

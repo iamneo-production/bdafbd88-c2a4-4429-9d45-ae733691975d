@@ -1,9 +1,25 @@
+<<<<<<< HEAD
+<<<<<<< HEAD:dotnetapp/Webapi/Properties/launchSettings.json
+﻿
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+=======
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d:dotnetapp/Properties/launchSettings.json
+=======
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
+<<<<<<< HEAD
+<<<<<<< HEAD:dotnetapp/Webapi/Properties/launchSettings.json
+      "applicationUrl": "http://localhost:51745",
+      "sslPort": 44367
+=======
 <<<<<<< HEAD
       "applicationUrl": "http://localhost:46527",
       "sslPort": 44382
@@ -11,6 +27,7 @@
       "applicationUrl": "http://localhost:51745",
       "sslPort": 44367
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
     }
   },
   "profiles": {
@@ -20,17 +37,47 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "http://0.0.0.0:8080",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
+<<<<<<< HEAD
+=======
+      "applicationUrl": "http://localhost:14060",
+      "sslPort": 44376
+    }
+  },
+  "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d:dotnetapp/Properties/launchSettings.json
+=======
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+<<<<<<< HEAD
+    "dotnetapp": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+<<<<<<< HEAD:dotnetapp/Webapi/Properties/launchSettings.json
+=======
+      "applicationUrl": "http://0.0.0.0:8080",
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d:dotnetapp/Properties/launchSettings.json
+=======
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
