@@ -4,6 +4,8 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.AssemblyInfoInputs.cache
@@ -14,6 +16,7 @@
 >>>>>>> cdd4118c0e0fa030cc2044d03f1005474bfa4854
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Webapi
@@ -25,6 +28,8 @@
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+<<<<<<< HEAD
+=======
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/System.Data.SqlClient.dll
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
@@ -35,6 +40,7 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.AssemblyInfoInputs.cache
@@ -44,9 +50,12 @@
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.MvcApplicationPartsAssemblyInfo.cache
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/staticwebassets.build.json
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/staticwebassets.development.json
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/scopedcss/bundle/Webapi.styles.css
@@ -57,6 +66,14 @@
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/Webapi.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net6.0/ref/Webapi.dll
 <<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -66,3 +83,4 @@
 /home/coder/project/workspace/dotnetapp/Webapi/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
 >>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45

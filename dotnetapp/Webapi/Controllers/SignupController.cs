@@ -16,6 +16,10 @@ namespace Webapi.Controllers
 <<<<<<< HEAD
     }
 }
+=======
+<<<<<<< HEAD
+    }
+}
 
 =======
 <<<<<<< HEAD
@@ -62,3 +66,4 @@ namespace Webapi.Controllers
     }
 }
 >>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
