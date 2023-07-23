@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Signup from "./components/Signup"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+<<<<<<< HEAD
+import React from 'react'
+=======
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+       
+          <Route path='/user/signup' element={<Signup />}></Route>
+     
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+<<<<<<< HEAD
+export default App;
+=======
+export default App;
+
+
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
