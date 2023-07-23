@@ -42,6 +42,7 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -50,6 +51,8 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+=======
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

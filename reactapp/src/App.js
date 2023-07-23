@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 import Signup from "./components/Signup"
+<<<<<<< HEAD
 =======
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
@@ -19,12 +19,15 @@ import Jobseekerdashboard from "./components/JobseekerPage/Jobseekerdashboard/Jo
 import Jobseekerappliedjob from "./components/JobseekerPage/Jobseekerappliedjob/Jobseekerappliedjob";
 import Jobseekerapplyjob from "./components/JobseekerPage/Jobseekerapplyjob"
 >>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+<<<<<<< HEAD
 <<<<<<< HEAD
        
           <Route path='/user/signup' element={<Signup />}></Route>
@@ -47,13 +50,22 @@ function App() {
         <Route path='/jobseeker/applyjob' element={<Jobseekerapplyjob />}></Route>
 
 >>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+       
+          <Route path='/user/signup' element={<Signup />}></Route>
+     
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
       </Routes>
     </BrowserRouter>
   );
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default App;
 =======
 export default App;
 >>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+export default App;
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
