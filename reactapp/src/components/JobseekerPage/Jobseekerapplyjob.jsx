@@ -40,7 +40,7 @@ function Jobseekerapplyjob() {
 
     // Send a POST request to the server to apply for the job
     axios
-      .post('http://localhost:5131/api/Admin/applyjob', {
+      .post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/applyjob', {
         ...values,
         jobDescription: selectedJob.jobDescription,
         jobLocation: selectedJob.jobLocation,

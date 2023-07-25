@@ -19,29 +19,21 @@ function Signup(){
 
     const [errors, setError] = useState('')
 
-    const handleInput = (event) => {
-        setValues((prev) => ({ ...prev, [event.target.name]: event.target.value }));
-      };
-      
-      const handleSubmit = (event) => {
+    const handleInput = (event)=> {
+        setValues(prev => ({...prev,[event.target.name]: event.target.value}))
+    }
+
+    const handleSubmit = (event) => {
         event.preventDefault();
-        axios
-          .post('http://localhost:8080/user/signup', values)
-          .then((res) => {
-            setError(SignupAuth(values));
-            if (
-              errors.email === "" &&
-              errors.password === "" &&
-              errors.username === "" &&
-              errors.mobileNumber === "" &&
-              errors.userRole === ""
-            ) {
-              navigate("/login");
-            }
-          })
-          .catch((err) => console.log(err));
-      };
-      
+        setError(SignupAuth(values));
+        if(errors.email === "" && errors.password === "" && errors.username === ""  && errors.mobileNumber === "" && errors.userRole === ""){
+            axios.post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/register',values)
+            .then(res=>{
+                navigate("/user/login");
+            })
+            .catch(err=>console.log(err));
+        }
+    }
     return(
         <>
         <div className='d-flex justify-content-center align-items-center p-4 w-100 signupHead'>
@@ -89,7 +81,7 @@ function Signup(){
                                <p>Already an user?</p>
                             </div>
                             <div className='d-flex justify-content-center'>
-                                <Link to='/login' type="button" id='signupLink' className="btn btn-primary rounded-0"> Login </Link>
+                                <Link to='/user/login' type="button" id='signupLink' className="btn btn-primary rounded-0"> Login </Link>
                             </div>
                             <Outlet/>
                         </div> 

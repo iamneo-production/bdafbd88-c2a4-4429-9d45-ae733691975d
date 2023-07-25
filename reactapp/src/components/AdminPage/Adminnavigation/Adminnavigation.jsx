@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import './Admindashboard.css';
+import './Adminnavigation.css';
 import { Link, useNavigate, Outlet } from 'react-router-dom';
 import axios from 'axios';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
-function Admindashboard() {
+function Adminnavigation() {
   const [data, setData] = useState([]);
   const navigate = useNavigate();
 
@@ -100,4 +100,4 @@ function Admindashboard() {
   );
 }
 
-export default Admindashboard;
+export default Adminnavigation;

@@ -36,17 +36,4 @@ namespace Webapi
         }
     }
 
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-}
-=======
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
->>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
->>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8

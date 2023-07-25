@@ -28,10 +28,10 @@ function EditProfile() {
 
   useEffect(() => {
     axios
-    .get('http://localhost:5131/api/Admin/getprofile/'+id)
+    .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/getprofile/'+id)
   .then(res => {
-    if (res.data.Status === 'Success') {
-      const person = res.data.Result;
+    if (res.data.status === 'Success') {
+      const person = res.data.result;
 
       setValues({
       jobDescription: person.jobDescription,
@@ -60,9 +60,9 @@ function EditProfile() {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-        .put('http://localhost:5131/api/Admin/updateprofile/'+id, formValues)
+        .put('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/updateprofile/'+id, formValues)
         .then(res => {
-            if (res.data.Status === "Success") {
+            if (res.data.status === "Success") {
                 navigate('/admin/profile');
             }
         })

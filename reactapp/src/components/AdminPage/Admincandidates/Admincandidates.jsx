@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import './Admindashboard.css';
+import './Admincandidates.css';
 import { Link, useNavigate, Outlet } from 'react-router-dom';
 import axios from 'axios';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
-function Admindashboard() {
+function Admincandidates() {
   const [data, setData] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
     axios
-      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/getjob')
+      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/getprofile')
       .then(res => {
         if (res.data.status === 'Success') {
           console.log(res.data.result);
@@ -27,7 +27,7 @@ function Admindashboard() {
 
   const handleDelete = id => {
     axios
-      .delete(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/deletejob/${id}`)
+      .delete(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/deleteprofile/${id}`)
       .then(res => {
         if (res.data.status === 'Success') {
           window.location.reload(true);
@@ -67,25 +67,22 @@ function Admindashboard() {
         {data.length > 0 ? (
           data.map((val) => {
             return (
-              <div className="template" key={val.jobId} id="adminCandidateGrid">
+              <div className="template" key={val.id} id="adminCandidateGrid">
                 <div className="leftContainer">
-                  <p>Job Description  : {val.jobDescription}</p>
-                  <p>From Date       : {new Date(val.fromDate).toLocaleDateString('en-GB')}</p>
-                  <p>Job Location : {val.jobLocation}</p>
+                  <p>Name of Candidate  : {val.personName}</p>
+                  <p>Phone Number  : {val.personPhone}</p>
+                  <p>Year of Experience : {val.personExp}</p>
                 </div>
                 <div className="rightContainer">
-                  <p>Wage Per Day : {val.wagePerDay}</p>
-                  <p>To Date : {new Date(val.toDate).toLocaleDateString('en-GB')}</p>
-                  <p>Phone Number : {val.jobPhone}</p>
+                  <p>Address : {val.personAddress}</p>
+                  <p>Email id : {val.personEmail}</p>
                 </div>
                 <div className="buttonContainer">
-                  <button className={new Date(currentDate) <= new Date(val.toDate) ? 'available-button' : 'unavailable-button'}>
-                    {new Date(currentDate) <= new Date(val.toDate) ? 'Available' : 'Not Available'}
-                  </button>
-                  <Link to={`/admin/getAllJobs/editOpening/${val.jobId}`} id="adminEditOpenings" className="editButton" type="button">
+                  
+                  <Link to={`/admin/profile/editProfile/${val.id}`} id="adminEditOpenings" className="editButton" type="button">
                     <FaEdit />
                   </Link>
-                  <Link onClick={e => handleDelete(val.jobId)} id="adminDelete" className="deleteButton" type="button">
+                  <Link onClick={e => handleDelete(val.id)} id="deleteCandidate" className="deleteButton" type="button">
                     <FaTrash />
                   </Link>
                 </div>
@@ -100,4 +97,4 @@ function Admindashboard() {
   );
 }
 
-export default Admindashboard;
+export default Admincandidates;
