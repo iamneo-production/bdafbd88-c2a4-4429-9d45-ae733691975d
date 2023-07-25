@@ -44,6 +44,188 @@ namespace Webapi
             }
         }
 
+<<<<<<< HEAD
         
     }
 }
+=======
+        public List<UserModel> getProfile()
+        {
+            List<UserModel> hiring = new List<UserModel>();
+
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM UserModel";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            UserModel hire = new UserModel
+                            {
+                               
+                                Email = reader["Email"].ToString(),
+                                username = reader["username"].ToString(),
+                                
+                            };
+
+                            hiring.Add(hire);
+                        }
+                    }
+                }
+            }
+
+            return hiring;
+        }
+
+        public List<UserModel> getJobs()
+        {
+            List<UserModel> hiring = new List<UserModel>();
+
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM UserModel";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            UserModel hire = new UserModel
+                            {
+                               
+                                Email = reader["Email"].ToString(),
+                                username = reader["username"].ToString(),
+                                
+                            };
+
+                            hiring.Add(hire);
+                        }
+                    }
+                }
+            }
+
+            return hiring;
+        }
+
+    public List<UserModel> getAlljobs()
+        {
+            List<UserModel> hiring = new List<UserModel>();
+
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM UserModel";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            UserModel hire = new UserModel
+                            {
+                               
+                                Email = reader["Email"].ToString(),
+                                username = reader["username"].ToString(),
+                                
+                            };
+
+                            hiring.Add(hire);
+                        }
+                    }
+                }
+            }
+
+            return hiring;
+        }
+
+    public List<UserModel> dashboard()
+        {
+            List<UserModel> hiring = new List<UserModel>();
+
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM UserModel";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            UserModel hire = new UserModel
+                            {
+                               
+                                Email = reader["Email"].ToString(),
+                                username = reader["username"].ToString(),
+                                
+                            };
+
+                            hiring.Add(hire);
+                        }
+                    }
+                }
+            }
+
+            return hiring;
+        }
+
+
+    public List<UserModel> getAppliedJobs()
+        {
+            List<UserModel> hiring = new List<UserModel>();
+
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM UserModel";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            UserModel hire = new UserModel
+                            {
+                               
+                                Email = reader["Email"].ToString(),
+                                username = reader["username"].ToString(),
+                                
+                            };
+
+                            hiring.Add(hire);
+                        }
+                    }
+                }
+            }
+
+            return hiring;
+        }
+
+
+        
+
+
+    }
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 68c33ef6a8d67ca4dd708c1bbe958082c80ab738
+>>>>>>> 42a1df4aa7e60bdeac85759d215b4ca7fd16040d
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
