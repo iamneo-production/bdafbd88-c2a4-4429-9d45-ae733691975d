@@ -12,11 +12,11 @@ function Jobseekerdashboard() {
 
   
   useEffect(() => {
-    axios.get('http://localhost:5131/api/Job/getjob')
+    axios.get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/getjob')
       .then(res => {
-        if (res.data.Status === 'Success') {
-          console.log(res.data.Result);
-          setJobs(res.data.Result);
+        if (res.data.status === 'Success') {
+          console.log(res.data.result);
+          setJobs(res.data.result);
         } else {
           alert('Error');
         }

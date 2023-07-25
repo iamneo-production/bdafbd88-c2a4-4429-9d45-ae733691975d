@@ -9,11 +9,11 @@ function Jobseekerappliedjob() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5131/api/User/getappliedjobs')
+      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/User/getappliedjobs')
       .then(res => {
-        if (res.data.Status === 'Success') {
-          console.log(res.data.Result);
-          setData(res.data.Result);
+        if (res.data.status === 'Success') {
+          console.log(res.data.result);
+          setData(res.data.result);
         } else {
           alert('Error');
         }

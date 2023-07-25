@@ -27,7 +27,7 @@ function Signup(){
         event.preventDefault();
         setError(SignupAuth(values));
         if(errors.email === "" && errors.password === "" && errors.username === ""  && errors.mobileNumber === "" && errors.userRole === ""){
-            axios.post('http://localhost:5131/api/Auth/register',values)
+            axios.post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/register',values)
             .then(res=>{
                 navigate("/user/login");
             })
@@ -92,4 +92,4 @@ function Signup(){
     )
 }
 
-export default Signup
+export default Signup;

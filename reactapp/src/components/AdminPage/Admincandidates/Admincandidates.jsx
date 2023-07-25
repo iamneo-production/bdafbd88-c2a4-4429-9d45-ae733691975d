@@ -10,11 +10,11 @@ function Admincandidates() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5131/api/Admin/getprofile')
+      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/getprofile')
       .then(res => {
-        if (res.data.Status === 'Success') {
-          console.log(res.data.Result);
-          setData(res.data.Result);
+        if (res.data.status === 'Success') {
+          console.log(res.data.result);
+          setData(res.data.result);
         } else {
           alert('Error');
         }
@@ -27,9 +27,9 @@ function Admincandidates() {
 
   const handleDelete = id => {
     axios
-      .delete(`http://localhost:5131/api/Admin/deleteprofile/${id}`)
+      .delete(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Admin/deleteprofile/${id}`)
       .then(res => {
-        if (res.data.Status === 'Success') {
+        if (res.data.status === 'Success') {
           window.location.reload(true);
         } else {
           alert('Error');

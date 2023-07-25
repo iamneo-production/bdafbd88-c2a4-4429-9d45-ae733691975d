@@ -12,12 +12,12 @@ function Customernavigation() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5131/api/Job/getjob')
+      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/getjob')
       .then(res => {
-        if (res.data.Status === 'Success') {
-          console.log(res.data.Result);
-          setData(res.data.Result);
-          setOriginalData(res.data.Result); // Store the original data for filtering
+        if (res.data.status === 'Success') {
+          console.log(res.data.result);
+          setData(res.data.result);
+          setOriginalData(res.data.result); // Store the original data for filtering
         } else {
           alert('Error');
         }

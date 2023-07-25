@@ -17,7 +17,7 @@ function EditOpening() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5131/api/Job/getjob/${id}`)
+      .get(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/getjob/${id}`)
       .then(res => {
         const job = res.data;
 
@@ -54,9 +54,9 @@ function EditOpening() {
   const handleSubmit = event => {
     event.preventDefault();
     axios
-      .put(`http://localhost:5131/api/Job/updatejob/${id}`, formValues)
+      .put(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/updatejob/${id}`, formValues)
       .then(res => {
-        if (res.data.Status === 'Success') {
+        if (res.data.status === 'Success') {
           navigate('/admin/getAllJobs');
         } else {
           console.log('Update failed');

@@ -22,13 +22,13 @@ function Login() {
     setErrors(LoginAuth(values));
     if (errors.email === '' && errors.password === '') {
       axios
-        .post('http://localhost:5131/api/Auth/login', values)
+        .post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/login', values)
         .then((res) => {
-          if (res.data.Status === 'admin') {
+          if (res.data.status === 'admin') {
             navigate('/admin');
-          } else if (res.data.Status === 'customer') {
+          } else if (res.data.status === 'customer') {
             navigate('/customer');
-          } else if (res.data.Status === 'jobseeker') {
+          } else if (res.data.status === 'jobseeker') {
             navigate('/user');
           } else {
             navigate('/user/signup');

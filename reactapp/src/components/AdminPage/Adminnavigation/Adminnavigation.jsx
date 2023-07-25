@@ -10,11 +10,11 @@ function Adminnavigation() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5131/api/Job/getjob')
+      .get('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/getjob')
       .then(res => {
-        if (res.data.Status === 'Success') {
-          console.log(res.data.Result);
-          setData(res.data.Result);
+        if (res.data.status === 'Success') {
+          console.log(res.data.result);
+          setData(res.data.result);
         } else {
           alert('Error');
         }
@@ -27,9 +27,9 @@ function Adminnavigation() {
 
   const handleDelete = id => {
     axios
-      .delete(`http://localhost:5131/api/Job/deletejob/${id}`)
+      .delete(`https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/deletejob/${id}`)
       .then(res => {
-        if (res.data.Status === 'Success') {
+        if (res.data.status === 'Success') {
           window.location.reload(true);
         } else {
           alert('Error');
