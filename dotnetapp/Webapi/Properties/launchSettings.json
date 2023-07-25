@@ -1,24 +1,9 @@
 ﻿{
-<<<<<<< HEAD
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-=======
   "$schema": "https://json.schemastore.org/launchsettings.json",
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-<<<<<<< HEAD
-      "applicationUrl": "http://localhost:1890",
-      "sslPort": 44320
-    }
-  },
-  "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-=======
       "applicationUrl": "http://localhost:51745",
       "sslPort": 44367
     }
@@ -30,24 +15,14 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "applicationUrl": "http://0.0.0.0:8080",
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-<<<<<<< HEAD
-    "Webapi": {
-      "commandName": "Project",
-      "dotnetRunMessages": "true",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://0.0.0.0:8080",
-=======
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

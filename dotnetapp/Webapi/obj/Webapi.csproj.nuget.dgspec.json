@@ -17,23 +17,14 @@
           "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-<<<<<<< HEAD
           "net5.0"
-=======
-          "net6.0"
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-<<<<<<< HEAD
           "net5.0": {
             "targetAlias": "net5.0",
-=======
-          "net6.0": {
-            "targetAlias": "net6.0",
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
             "projectReferences": {}
           }
         },
@@ -44,13 +35,8 @@
         }
       },
       "frameworks": {
-<<<<<<< HEAD
         "net5.0": {
           "targetAlias": "net5.0",
-=======
-        "net6.0": {
-          "targetAlias": "net6.0",
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
           "dependencies": {
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -58,7 +44,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[6.0.1, )"
+              "version": "[5.0.8, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -66,11 +52,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[5.6.3, )"
-=======
               "version": "[6.2.3, )"
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -83,12 +65,7 @@
             "net47",
             "net471",
             "net472",
-<<<<<<< HEAD
             "net48"
-=======
-            "net48",
-            "net481"
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -100,11 +77,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
->>>>>>> bbe57bd1ad16e79675a8a6fa883f3d3f5fd9b9e8
         }
       }
     }

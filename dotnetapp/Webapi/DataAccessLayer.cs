@@ -44,11 +44,6 @@ namespace Webapi
             }
         }
 
-<<<<<<< HEAD
-        
-    }
-}
-=======
         public List<UserModel> getProfile()
         {
             List<UserModel> hiring = new List<UserModel>();
