@@ -23,7 +23,6 @@ function Customerviewappliedjobs() {
       })
       .catch(err => console.log(err));
   };
-
   const handleStatusChange = (id, currentStatus) => {
     let newStatus;
     let buttonText;
@@ -43,37 +42,27 @@ function Customerviewappliedjobs() {
       buttonColor = 'green';
     }
 
-    // Update the status in the client-side state directly
-    const selectedItem = data.find(val => val.id === id);
-  if (!selectedItem) {
-    // Handle the case when the item is not found
-    console.log('Item not found');
-    return;
-  }
+    // Create a new object with the updated status and the rest of the properties from the selected item
+    const updatedItem = {
+      ...data.find(val => val.id === id),
+      stat: newStatus,
+    };
 
-  // Create a new object with the updated status and the rest of the properties from the selected item
-  const updatedItem = {
-    ...selectedItem,
-    stat: newStatus,
+    // Send the updated item to the backend
+    axios
+      .put('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/User/updatestatus/' + id, updatedItem)
+      .then(res => {
+        if (res.data.status === 'Success') {
+          // Update the state with the updated item after successful API call
+          setData(prevData =>
+            prevData.map(val => (val.id === id ? updatedItem : val))
+          );
+        } else {
+          // Handle the error case
+        }
+      })
+      .catch(err => console.log(err));
   };
-
-  // Update the status in the client-side state
-  setData(prevData =>
-    prevData.map(val => (val.id === id ? updatedItem : val))
-  );
-
-  // Send the updated item to the backend
-  axios
-  .put('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/User/updatestatus/'+id, updatedItem)
-    .then(res => {
-      if (res.data.status === 'Success') {
-        // Success, no action needed
-      } else {
-        // Handle the error case
-      }
-    })
-    .catch(err => console.log(err));
-};
 
   return (
     <>
