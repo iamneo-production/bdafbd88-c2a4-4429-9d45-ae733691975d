@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,6 +25,8 @@ function App() {
     </div>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
 import logo from './logo.svg';
 import './App.css';
 
@@ -90,6 +93,7 @@ function App() {
       </Routes>
     </BrowserRouter>
 >>>>>>> 3868786571311965569708dc95f392e1a6d586b5
+<<<<<<< HEAD
 >>>>>>> 6de141319ae8dd8f81da734fb204cc46bf357a8b
 =======
 import logo from './logo.svg';
@@ -152,6 +156,8 @@ function App() {
       </Routes>
     </BrowserRouter>
 >>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9
+=======
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
   );
 }
 

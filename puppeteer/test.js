@@ -5,6 +5,7 @@ const puppeteer = require('puppeteer');
     try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
     await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -12,6 +13,9 @@ const puppeteer = require('puppeteer');
 =======
     await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+    await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
     await page.setViewport({
       width:1200,
       height:800,
@@ -45,6 +49,7 @@ const puppeteer = require('puppeteer');
     try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
     await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -52,6 +57,9 @@ const puppeteer = require('puppeteer');
 =======
     await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+    await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
     await page.setViewport({
       width:1200,
       height:800,
@@ -80,6 +88,7 @@ const puppeteer = require('puppeteer');
     try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
     await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -87,6 +96,9 @@ const puppeteer = require('puppeteer');
 =======
     await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+    await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
     await page.setViewport({
       width:1200,
       height:800,
@@ -119,6 +131,7 @@ const puppeteer = require('puppeteer');
   try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
   await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -126,6 +139,9 @@ const puppeteer = require('puppeteer');
 =======
   await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+  await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
   await page.setViewport({
     width:1200,
     height:800,
@@ -156,6 +172,7 @@ const puppeteer = require('puppeteer');
   try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
   await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -163,6 +180,9 @@ const puppeteer = require('puppeteer');
 =======
   await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+  await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
   await page.setViewport({
     width:1200,
     height:800,
@@ -193,6 +213,7 @@ const puppeteer = require('puppeteer');
   try{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   await page.goto('https://8081-ffeefccdcaadefffdddfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 =======
   await page.goto('https://8081-efdefdeabaedfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
@@ -200,6 +221,9 @@ const puppeteer = require('puppeteer');
 =======
   await page.goto('https://8081-eaefdaecbadadfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+  await page.goto('https://8081-abceaedeebdfdacbbbcdfebbabeccbdacfaebfdca.project.examly.io/');
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
   await page.setViewport({
     width:1200,
     height:800,

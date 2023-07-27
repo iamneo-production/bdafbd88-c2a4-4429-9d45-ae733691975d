@@ -8,6 +8,9 @@
     "@testing-library/user-event": "^12.8.3",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
 =======
@@ -22,10 +25,13 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.14.2",
 >>>>>>> 3868786571311965569708dc95f392e1a6d586b5
+<<<<<<< HEAD
 =======
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+>>>>>>> ad124189fbcb2d601123e9cae47b76b02520e130
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
