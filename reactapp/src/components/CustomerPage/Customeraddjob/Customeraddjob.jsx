@@ -23,7 +23,7 @@ function Customeraddjob() {
     event.preventDefault();
 
     axios
-      .post('http://localhost:5131/api/Job/addjob', values)
+      .post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Job/addjob', values)
       .then((res) => {
         navigate('/customer/dashboard');
       })
