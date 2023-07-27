@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -52,6 +53,10 @@ function App() {
       </header>
     </div>
 =======
+import Signup from "./components/Signup"
+<<<<<<< HEAD
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786
+=======
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Adminnavigation from "./components/AdminPage/Adminnavigation/Adminnavigation";
@@ -69,6 +74,12 @@ import Jobseekernavigation from "./components/JobseekerPage/Jobseekernavigation/
 import Jobseekerdashboard from "./components/JobseekerPage/Jobseekerdashboard/Jobseekerdashboard";
 import Jobseekerappliedjob from "./components/JobseekerPage/Jobseekerappliedjob/Jobseekerappliedjob";
 import Jobseekerapplyjob from "./components/JobseekerPage/Jobseekerapplyjob"
+<<<<<<< HEAD
+=======
+>>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -77,6 +88,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+       
+          <Route path='/user/signup' element={<Signup />}></Route>
+     
+=======
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786
         <Route path='/admin' element={<Adminnavigation />}></Route>
         <Route path='/admin/getAllJobs' element={<Admindashboard />}></Route>
         <Route path='/admin/profile' element={<Admincandidates />}></Route>
@@ -93,6 +113,15 @@ function App() {
         <Route path="/jobseeker/appliedjob" element={<Jobseekerappliedjob />}></Route>
         <Route path='/jobseeker/applyjob' element={<Jobseekerapplyjob />}></Route>
 
+<<<<<<< HEAD
+=======
+>>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+       
+          <Route path='/user/signup' element={<Signup />}></Route>
+     
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786
       </Routes>
     </BrowserRouter>
 >>>>>>> 3868786571311965569708dc95f392e1a6d586b5
@@ -167,4 +196,16 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+export default App;
+=======
+export default App;
+>>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
+=======
+export default App;
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786

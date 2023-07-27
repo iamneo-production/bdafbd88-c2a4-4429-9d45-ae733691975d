@@ -56,4 +56,21 @@ function SignupAuth(values) {
     return error;
   }
   
+<<<<<<< HEAD:reactapp/components/Auth.jsx
   export default SignupAuth;
+=======
+<<<<<<< HEAD:reactapp/src/components/Auth/SignupAuth.jsx
+  export default SignupAuth;
+  
+=======
+<<<<<<< HEAD
+  export default SignupAuth;
+=======
+<<<<<<< HEAD
+  export default SignupAuth;
+=======
+  export default SignupAuth;
+>>>>>>> 7159bf44cc39b8d8af92fc9321edd24026ad0a45
+>>>>>>> 46f7519582fbe2fdbe5b902d3bb9d8dfef0b9f34
+>>>>>>> 6dae694a0c477cd197956f6283da6951f854b505:reactapp/src/components/Auth.jsx
+>>>>>>> 9301475c74331303918272edc04a13ce1257d786:reactapp/src/components/Auth/SignupAuth.jsx
