@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, Outlet, useNavigate } from 'react-router-dom';
-import LoginAuth from '../Auth/LoginAuth';
 import axios from 'axios';
 import './Login.css';
 
@@ -10,7 +9,6 @@ function Login() {
     password: ''
   });
 
-  const [errors, setErrors] = useState({});
   const navigate = useNavigate();
 
   const handleInput = (event) => {
@@ -19,24 +17,22 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    setErrors(LoginAuth(values));
-    if (errors.email === '' && errors.password === '') {
-      axios
-        .post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/login', values)
-        .then((res) => {
-          if (res.data.status === 'admin') {
-            navigate('/admin');
-          } else if (res.data.status === 'customer') {
-            navigate('/customer');
-          } else if (res.data.status === 'jobseeker') {
-            navigate('/user');
-          } else {
-            navigate('/user/signup');
-            alert('Invalid Credentials. Please Register.');
-          }
-        })
-        .catch((err) => console.log(err));
-    }
+
+    axios
+      .post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/login', values)
+      .then((res) => {
+        if (res.data.status === 'admin') {
+          navigate('/admin');
+        } else if (res.data.status === 'customer') {
+          navigate('/customer');
+        } else if (res.data.status === 'jobseeker') {
+          navigate('/user');
+        } else {
+          navigate('/user/signup');
+          alert('Invalid Credentials. Please Register.');
+        }
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -58,7 +54,6 @@ function Login() {
                 className='form-control rounded-0'
                 autoComplete='off'
               />
-              {errors.email && <span className='text-danger'>{errors.email}</span>}
             </div>
             <div className='mb-3'>
               <input
@@ -69,7 +64,6 @@ function Login() {
                 onChange={handleInput}
                 className='form-control rounded-0'
               />
-              {errors.password && <span className='text-danger'>{errors.password}</span>}
             </div>
             <div className='row'>
               <div className='col-4'>

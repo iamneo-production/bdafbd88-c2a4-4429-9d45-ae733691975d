@@ -11,9 +11,9 @@ namespace Webapi
     internal class DataAccessLayer
     {
         SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cookhiring;trusted_connection=false;Persist Security Info =False;Encrypt=False");
-        SqlCommand cmd = null;
-        SqlDataAdapter adapter = null;
-        SqlDataReader dr = null;
+        SqlCommand cmd = new SqlCommand("");
+        //SqlDataAdapter adapter = null;
+        SqlDataReader? dr;
         internal string SaveUser(UserModel user)
         {
             cmd = new SqlCommand("select * from UserModel where Email = '" + user.Email + "'", con);
