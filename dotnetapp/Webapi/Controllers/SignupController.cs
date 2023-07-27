@@ -1,4 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
+=======
+using System.Collections.Generic;
+using Webapi.Models;
+>>>>>>> 0513a3a89e6c690334ddbdf1194ceaf93f20df15
 
 namespace Webapi.Controllers
 {

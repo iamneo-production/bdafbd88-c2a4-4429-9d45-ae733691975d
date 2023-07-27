@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "F9vI3TMI+xdR6cVDLIUmBtEehlZM7mwnt9lT0f7tx1DbPwH6ytSCwkKAcMqapYxGvKZH+oaq7PCRSO4h+1gI+w==",
+=======
+  "dgSpecHash": "sXjCGfwUIHWbwYuRbI0xrwZ6Z10AzsFjLY5YBZhBjLdBptJuClNbfH+sbeEwzFCipANtZ+NoGFq8/k8klvS5+g==",
+>>>>>>> 0513a3a89e6c690334ddbdf1194ceaf93f20df15
   "success": true,
-  "projectFilePath": "/home/coder/project/workspace/dotnetapp/Webapi/Webapi.csproj",
+  "projectFilePath": "/home/coder/project/workspace/dotnetapp/Webapi/WebApp.csproj",
   "expectedPackageFiles": [
     "/home/coder/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

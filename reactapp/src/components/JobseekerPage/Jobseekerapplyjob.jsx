@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
-import { useNavigate, Link, Outlet } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 function Jobseekerapplyjob() {
   // State to manage person details
@@ -64,7 +64,7 @@ function Jobseekerapplyjob() {
       {/* Navigation Bar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto">
           <div className="container-fluid">
-            <a className="navbar-brand" id='home'>Cooking Expert</a>
+            <span className="navbar-brand" id='home'>Cooking Expert</span>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
@@ -75,7 +75,7 @@ function Jobseekerapplyjob() {
                 </li>
               </ul>
               <Link to="/user/login">
-                <a className="logout" id='logout'>Logout</a>
+                <span className="logout" id='logout'>Logout</span>
               </Link>
             </div>
           </div>

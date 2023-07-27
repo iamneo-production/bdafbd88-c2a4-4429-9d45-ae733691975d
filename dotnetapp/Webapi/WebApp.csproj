@@ -6,6 +6,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+<<<<<<< HEAD:dotnetapp/Webapi/Webapi.csproj
+=======
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+>>>>>>> 0513a3a89e6c690334ddbdf1194ceaf93f20df15:dotnetapp/Webapi/WebApp.csproj
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>

@@ -72,9 +72,9 @@ function EditOpening() {
       </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto">
         <div className="container-fluid">
-          <a className="navbar-brand" id="home">
+          <span className="navbar-brand" id="home">
             Cooking Expert
-          </a>
+          </span>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
@@ -98,9 +98,9 @@ function EditOpening() {
               </li>
             </ul>
             <Link to="/login">
-              <a className="logout" id="logout">
+              <span className="logout" id="logout">
                 Logout
-              </a>
+              </span>
             </Link>
           </div>
         </div>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Admincandidates.css';
-import { Link, useNavigate, Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import axios from 'axios';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 
 function Admincandidates() {
   const [data, setData] = useState([]);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   useEffect(() => {
     axios
@@ -23,7 +23,7 @@ function Admincandidates() {
   }, []);
 
   // Get the current system date
-  const currentDate = new Date().toLocaleDateString();
+  //const currentDate = new Date().toLocaleDateString();
 
   const handleDelete = id => {
     axios
@@ -44,7 +44,7 @@ function Admincandidates() {
         <div><br/></div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto">
           <div className="container-fluid">
-            <a className="navbar-brand" id='home'>Cooking Expert</a>
+            <span className="navbar-brand" id='home'>Cooking Expert</span>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
@@ -55,7 +55,7 @@ function Admincandidates() {
                 </li>
               </ul>
               <Link to="/user/login">
-                <a className="logout" id='logout'>Logout</a>
+                <span className="logout" id='logout'>Logout</span>
               </Link>
             </div>
           </div>
