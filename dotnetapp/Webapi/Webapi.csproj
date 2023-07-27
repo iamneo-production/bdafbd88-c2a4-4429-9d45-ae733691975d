@@ -16,12 +16,21 @@
     <PackageReference Include="System.Data.sqlClient" Version="4.8.5" />
 =======
 
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
+=======
+
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.1" />
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 
 
 
 
+
+
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />

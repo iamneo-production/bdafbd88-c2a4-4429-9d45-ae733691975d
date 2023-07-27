@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
 
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
 import './Customerviewappliedjobs.css';
@@ -152,7 +155,10 @@ function Customerviewappliedjobs() {
 };
 
   return (
+<<<<<<< HEAD
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
+=======
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
     <>
       <div className='body'>
         <div><br/></div>
@@ -212,17 +218,24 @@ function Customerviewappliedjobs() {
           })
         ) : (
 <<<<<<< HEAD
+<<<<<<< HEAD
           <p>No results</p>
         )}
       </div>
     </>
 =======
+=======
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
           <p>No results found.</p>
         )}
       </div>
     </>
+<<<<<<< HEAD
 >>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
+=======
+>>>>>>> efc3c3bab2f4f24f79222675f091d608f299fc41
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
   );
 }
 

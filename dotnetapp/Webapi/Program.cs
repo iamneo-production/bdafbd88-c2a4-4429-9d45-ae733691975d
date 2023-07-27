@@ -2,7 +2,6 @@
 //using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 builder.Services.AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 
@@ -44,3 +43,4 @@ app.UseCors(builder =>
 app.MapControllers();
 
 app.Run();
+

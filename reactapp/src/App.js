@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -53,6 +54,8 @@ function App() {
       </header>
     </div>
 =======
+=======
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
 import Signup from "./components/Signup"
 <<<<<<< HEAD
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
@@ -78,8 +81,13 @@ import Jobseekerapplyjob from "./components/JobseekerPage/Jobseekerapplyjob"
 =======
 >>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
 =======
+<<<<<<< HEAD
 >>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
+=======
+import Signup from "./components/Signup"
+>>>>>>> efc3c3bab2f4f24f79222675f091d608f299fc41
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -89,8 +97,11 @@ function App() {
     <BrowserRouter>
       <Routes>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
 <<<<<<< HEAD
        
           <Route path='/user/signup' element={<Signup />}></Route>
@@ -120,6 +131,7 @@ function App() {
        
           <Route path='/user/signup' element={<Signup />}></Route>
      
+<<<<<<< HEAD
 >>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
       </Routes>
@@ -186,6 +198,9 @@ function App() {
           <Route path='/Loanid' element={<Loanid />}></Route>
           <Route path='/Loandetails' element={<Loandetails />}></Route> */}
 
+=======
+>>>>>>> efc3c3bab2f4f24f79222675f091d608f299fc41
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
       </Routes>
     </BrowserRouter>
 >>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9
@@ -197,6 +212,7 @@ function App() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default App;
 =======
 <<<<<<< HEAD
@@ -207,5 +223,9 @@ export default App;
 >>>>>>> be9cd8d03cd66e5e86919c4e8996ff1bd8456876
 =======
 export default App;
+<<<<<<< HEAD
 >>>>>>> 6dae694a0c477cd197956f6283da6951f854b505
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
+=======
+>>>>>>> efc3c3bab2f4f24f79222675f091d608f299fc41
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3

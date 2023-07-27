@@ -17,6 +17,7 @@ namespace Webapi.Controllers
 
         }
 
+
         BusinessLayer dal = new BusinessLayer();
         [HttpGet]
         [Route("jobseeker/getJobs")]
@@ -53,8 +54,11 @@ namespace Webapi.Controllers
             return(dal.dashboard());
         }
 
-    }
-}
 
+<<<<<<< HEAD
 =======
 >>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9
+=======
+    }
+}
+>>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
