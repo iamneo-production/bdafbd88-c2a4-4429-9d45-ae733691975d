@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import axios from 'axios';
-import SignupAuth from "../Auth/SignupAuth";
 import { Link, Outlet, useNavigate } from 'react-router-dom';
-import './Signup.css'
+import './Signup.css';
 
 function Signup(){
 
@@ -13,11 +12,9 @@ function Signup(){
         mobileNumber:'',
         userRole:'',
         confirmPassword:''
+    });
 
-    })
-    const navigate = useNavigate()
-
-    const [errors, setError] = useState('')
+    const navigate = useNavigate();
 
     const handleInput = (event)=> {
         setValues(prev => ({...prev,[event.target.name]: event.target.value}))
@@ -25,53 +22,46 @@ function Signup(){
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        setError(SignupAuth(values));
-        if(errors.email === "" && errors.password === "" && errors.username === ""  && errors.mobileNumber === "" && errors.userRole === ""){
-            axios.post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/register',values)
-            .then(res=>{
+
+        axios.post('https://8080-ffeefccdcaadefffdddfdacbbbcdfebbabfeafefcdfdfda.project.examly.io/api/Auth/register', values)
+            .then(res => {
                 navigate("/user/login");
             })
-            .catch(err=>console.log(err));
-        }
+            .catch(err => console.log(err));
     }
-    return(
+
+    return (
         <>
-        <div className='d-flex justify-content-center align-items-center p-4 w-100 signupHead'>
-        <strong>Register</strong>
-        </div>
-        <br/>
-        <div className='d-flex justify-content-center align-items-center vh-90 SignupPage'>
+            <div className='d-flex justify-content-center align-items-center p-4 w-100 signupHead'>
+                <strong>Register</strong>
+            </div>
+            <br/>
+            <div className='d-flex justify-content-center align-items-center vh-90 SignupPage'>
                 <div className='p-1 rounded w-25 signupForm'>
                     <form onSubmit={handleSubmit}>
                         <div className='mb-3'>
                             <input type="text" id="admin/user/jobseeker" placeholder='Enter admin/user/jobseeker' name='userRole'
                             onChange={handleInput} className='form-control rounded-0' autoComplete='off'/>
-                            {errors.userRole && <span className='text-danger'>{errors.userRole}</span>}
                         </div>
                         <div className='mb-3'>
                             <input type="email" id="email" placeholder='Enter email' name='email'
                             onChange={handleInput} className='form-control rounded-0' autoComplete='off'/>
-                            {errors.email && <span className='text-danger'>{errors.email}</span>}
                         </div>
                         <div className='mb-3'>
                             <input type="text" id="username" placeholder='Enter Username' name='username'
                             onChange={handleInput} className='form-control rounded-0' autoComplete='off'/>
-                            {errors.username && <span className='text-danger'>{errors.username}</span>}
                         </div>
                         <div className='mb-3'>
                             <input type="text" id="mobileNumber" placeholder='Enter Mobilenumber' name='mobileNumber'
                             onChange={handleInput} className='form-control rounded-0' autoComplete='off'/>
-                            {errors.mobileNumber && <span className='text-danger'>{errors.mobileNumber}</span>}
                         </div>
                         <div className='mb-3'>
                             <input type="password" id="password" placeholder='Password' name='password'
                             onChange={handleInput} className='form-control rounded-0' />
-                            {errors.password && <span className='text-danger'>{errors.password}</span>}
                         </div>
                         <div className='mb-3'>
                             <input type="password" id="confirmPassword" placeholder='Confirm Password' name='confirmPassword'
                             onChange={handleInput} className='form-control rounded-0' />
-                            {errors.confirmPassword && <span className='text-danger'>{errors.confirmPassword}</span>}
                         </div>
                         <div>
                             <div className='col'>
@@ -87,8 +77,8 @@ function Signup(){
                         </div> 
                     </form>
                 </div>
-        </div>
-    </>
+            </div>
+        </>
     )
 }
 
