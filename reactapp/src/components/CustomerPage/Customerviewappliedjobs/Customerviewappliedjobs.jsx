@@ -134,7 +134,7 @@ function Customerviewappliedjobs() {
             );
           })
         ) : (
-          <p>No results found.</p>
+          <p>No results</p>
         )}
       </div>
     </>
