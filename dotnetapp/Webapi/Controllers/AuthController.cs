@@ -45,7 +45,11 @@ namespace Webapi.Controllers
                         return BadRequest("Failed to register user");
                 }
             }
+<<<<<<< HEAD
             catch (SqlException)
+=======
+            catch (SqlException ex)
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while registering user");
             }
@@ -94,7 +98,11 @@ namespace Webapi.Controllers
                     }
                 }
             }
+<<<<<<< HEAD
             catch (SqlException)
+=======
+            catch (SqlException ex)
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while logging in");
             }

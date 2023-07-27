@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 =======
 <<<<<<< HEAD
@@ -107,54 +108,18 @@ function Customerviewappliedjobs() {
     let newStatus;
     let buttonText;
     let buttonColor;
+=======
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
 
-    if (currentStatus === 'yes') {
-      newStatus = 'no';
-      buttonText = 'Rejected';
-      buttonColor = 'red';
-    } else if (currentStatus === 'no') {
-      newStatus = 'yes';
-      buttonText = 'Accepted';
-      buttonColor = '#39C64D';
-    } else {
-      newStatus = 'yes';
-      buttonText = 'Applied';
-      buttonColor = 'green';
-    }
+import './Customerviewappliedjobs.css';
 
-    // Update the status in the client-side state directly
-    const selectedItem = data.find(val => val.id === id);
-  if (!selectedItem) {
-    // Handle the case when the item is not found
-    console.log('Item not found');
-    return;
-  }
 
-  // Create a new object with the updated status and the rest of the properties from the selected item
-  const updatedItem = {
-    ...selectedItem,
-    stat: newStatus,
-  };
 
-  // Update the status in the client-side state
-  setData(prevData =>
-    prevData.map(val => (val.id === id ? updatedItem : val))
-  );
-
-  // Send the updated item to the backend
-  axios
-  .put('http://localhost:5131/api/User/updatestatus/'+id, updatedItem)
-    .then(res => {
-      if (res.data.Status === 'Success') {
-        // Success, no action needed
-      } else {
-        // Handle the error case
-      }
-    })
-    .catch(err => console.log(err));
-};
+function Customerviewappliedjobs() {
+  
 
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9301475c74331303918272edc04a13ce1257d786
 =======
@@ -236,6 +201,9 @@ function Customerviewappliedjobs() {
 =======
 >>>>>>> efc3c3bab2f4f24f79222675f091d608f299fc41
 >>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
+=======
+   <div>Customerviewappliedjobs</div>
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
   );
 }
 

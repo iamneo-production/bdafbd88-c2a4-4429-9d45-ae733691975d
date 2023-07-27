@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 //using Microsoft.AspNetCore.Hosting;
 //using Microsoft.Extensions.Hosting;
+=======
+var builder = WebApplication.CreateBuilder(args);
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -42,5 +46,9 @@ app.UseCors(builder =>
 
 app.MapControllers();
 
+<<<<<<< HEAD
 app.Run();
 
+=======
+app.Run();
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f

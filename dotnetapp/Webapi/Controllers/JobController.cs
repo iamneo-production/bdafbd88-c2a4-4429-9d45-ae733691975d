@@ -2,9 +2,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using Webapi.Models;
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
+=======
+>>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
 
 namespace Webapi.Controllers
 {
