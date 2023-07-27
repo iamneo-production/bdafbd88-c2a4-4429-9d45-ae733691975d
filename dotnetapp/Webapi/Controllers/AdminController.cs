@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-using Microsoft.AspNetCore.Mvc;
-
-namespace Webapi.Controllers
-{
-    
-    [ApiController]
-    public class AdminController : ControllerBase
-    {
-        BusinessLayer dal = new BusinessLayer();
-        [HttpGet]
-        [Route("admin/Profile")]
-        public List<UserModel> getProfile()
-        { 
-            return(dal.getProfile());
-        }
-    }
-}
-=======
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -258,4 +239,3 @@ namespace Webapi.Controllers
 
     }
 }
->>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f

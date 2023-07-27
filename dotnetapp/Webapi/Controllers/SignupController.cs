@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace Webapi.Controllers
 {
@@ -14,14 +12,8 @@ namespace Webapi.Controllers
         {
             BusinessLayer dal = new BusinessLayer();
             return Created("",dal.SaveUser(user));
-<<<<<<< HEAD
 
         }
-
-=======
-
-        }
->>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
 
         BusinessLayer dal = new BusinessLayer();
         [HttpGet]
@@ -59,17 +51,5 @@ namespace Webapi.Controllers
             return(dal.dashboard());
         }
 
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-=======
->>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9
-=======
     }
 }
->>>>>>> aea98d5d0491d31286bd7f18a3c91aa14938f9a3
-=======
-    }
-}
-
->>>>>>> 3e42f5cdeb55ed5bb7fc5f042c1d61afa0e9593f
