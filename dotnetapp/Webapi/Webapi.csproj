@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+<<<<<<< HEAD
+=======
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+>>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+<<<<<<< HEAD
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Data.sqlClient" Version="4.8.5" />
+=======
+
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+
+
+
+
+
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+>>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+  </ItemGroup>
+
+</Project>

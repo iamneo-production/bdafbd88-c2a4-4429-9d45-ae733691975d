@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -55,3 +56,5 @@ namespace Webapi.Controllers
     }
 }
 
+=======
+>>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9

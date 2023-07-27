@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -113,7 +114,45 @@ function App() {
       </header>
     </div>
 >>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
+=======
+import Signup from "./components/Signup"
+// import Applyloan from "./components/Applyloan/Applyloan";
+// import "./components/Signup/Signup.css"
+// import './components/Login/Login.css'
+// import './components/Profile/Profile.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+// import HomePage from "./components/HomePage/HomePage";
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+// import Loanstatus from "./components/Loanstatus/Loanstatus";
+// import Profile from "./components/Profile/Profile";
+// import AdminPage from "./components/AdminPage/Admin"
+// import Appliedloans from "./components/Appliedloans/Appliedloans";
+// import Loanid from "./components/Loanid/Loanid";
+// import Loandetails from "./components/Loandetails/Loandetails"
+
+// import './components/Loanid/Loanid.css'
+
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path='/' element={<Login />}></Route> */}
+          {/* <Route path='/home' element={<HomePage />}></Route>
+          <Route path='/admin' element={<AdminPage />}></Route>
+          <Route path='/user/addLoan' element={<Applyloan />}></Route>
+          <Route path='/user/viewLoan' element={<Loanstatus />}></Route>
+          <Route path='/user/getProfile' element={<Profile />}></Route>
+          <Route path='/user/login' element={<Login />}></Route> */}
+          <Route path='/user/signup' element={<Signup />}></Route>
+          {/* <Route path='/admin/getAllLoans' element={<Appliedloans />}></Route>
+          <Route path='/Loanid' element={<Loanid />}></Route>
+          <Route path='/Loandetails' element={<Loandetails />}></Route> */}
+
+      </Routes>
+    </BrowserRouter>
+>>>>>>> db1ab22e0e29af77503a4c9295263d196fec9cb9
   );
 }
 
-export default App;
+export default App;
