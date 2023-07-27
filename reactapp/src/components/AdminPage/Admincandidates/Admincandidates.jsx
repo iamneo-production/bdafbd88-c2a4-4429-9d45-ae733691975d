@@ -23,7 +23,7 @@ function Admincandidates() {
   }, []);
 
   // Get the current system date
-  const currentDate = new Date().toLocaleDateString();
+  //const currentDate = new Date().toLocaleDateString();
 
   const handleDelete = id => {
     axios
