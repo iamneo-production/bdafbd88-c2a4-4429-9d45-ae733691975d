@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -89,6 +90,29 @@ function App() {
     </BrowserRouter>
 >>>>>>> 3868786571311965569708dc95f392e1a6d586b5
 >>>>>>> 6de141319ae8dd8f81da734fb204cc46bf357a8b
+=======
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+>>>>>>> a18377425ba42cce6393bc76ac2d1135e8a09cbc
   );
 }
 
