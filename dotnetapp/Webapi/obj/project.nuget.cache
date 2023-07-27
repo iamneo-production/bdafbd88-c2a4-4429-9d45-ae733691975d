@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f0Cfaw+xK1lSC/lLLAarB4nm/teIhYSUUaCYbkDk5mrLMnbEONGD2ndegxB0GrLB0nH57K1YPhJMs8XfSm6qUw==",
+  "dgSpecHash": "J78A14NG6tK/1VJQ8dQh9aYV5JIFMl3WBMStGv76tdUlfZvXclU+S5rl4qSi0V48YIo0H4G6nSeqYzj5qmIYbA==",
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/Webapi/Webapi.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,8 @@
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "/home/coder/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.1/microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
-    "/home/coder/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.1/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.1.nupkg.sha512",
+    "/home/coder/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.8/microsoft.aspnetcore.jsonpatch.5.0.8.nupkg.sha512",
+    "/home/coder/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.8/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.8.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.extensions.configuration.abstractions/2.2.0/microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
