@@ -2,7 +2,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using Webapi.Models;
-
+using System;
+using System.Collections.Generic;
+using Microsoft.Extensions.Configuration;
 namespace Webapi.Controllers
 {
     [Route("api/[controller]")]

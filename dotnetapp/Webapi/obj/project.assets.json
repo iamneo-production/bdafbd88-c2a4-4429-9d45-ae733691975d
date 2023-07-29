@@ -1384,9 +1384,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coder/project/workspace/dotnetapp/Webapi/Webapi.csproj",
-      "projectName": "Webapi",
-      "projectPath": "/home/coder/project/workspace/dotnetapp/Webapi/Webapi.csproj",
+      "projectUniqueName": "/home/coder/project/workspace/dotnetapp/Webapi/WebApp.csproj",
+      "projectName": "WebApp",
+      "projectPath": "/home/coder/project/workspace/dotnetapp/Webapi/WebApp.csproj",
       "packagesPath": "/home/coder/.nuget/packages/",
       "outputPath": "/home/coder/project/workspace/dotnetapp/Webapi/obj/",
       "projectStyle": "PackageReference",
