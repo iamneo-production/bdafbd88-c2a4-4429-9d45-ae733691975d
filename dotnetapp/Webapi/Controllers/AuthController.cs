@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using System.Data.Common;
 using System.Data.SqlClient;
 using Webapi.Models;
+
 namespace Webapi.Controllers
 {
     [Route("api/[controller]")]
@@ -45,7 +46,7 @@ namespace Webapi.Controllers
                         return BadRequest("Failed to register user");
                 }
             }
-            catch (SqlException ex)
+            catch (SqlException)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while registering user");
             }
@@ -94,7 +95,7 @@ namespace Webapi.Controllers
                     }
                 }
             }
-            catch (SqlException ex)
+            catch (SqlException)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while logging in");
             }

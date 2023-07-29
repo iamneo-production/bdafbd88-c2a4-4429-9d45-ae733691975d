@@ -1,7 +1,0 @@
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.csproj.AssemblyReference.cache
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.GeneratedMSBuildEditorConfig.editorconfig
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.AssemblyInfoInputs.cache
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.AssemblyInfo.cs
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.csproj.CoreCompileInputs.cache
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.MvcApplicationPartsAssemblyInfo.cs
-/home/coder/project/workspace/dotnetapp/Webapi/obj/Debug/net5.0/Webapi.MvcApplicationPartsAssemblyInfo.cache
