@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -45,7 +47,7 @@ namespace Webapi.Controllers
                         return BadRequest("Failed to register user");
                 }
             }
-            catch (SqlException ex)
+            catch (SqlException)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while registering user");
             }
@@ -94,7 +96,7 @@ namespace Webapi.Controllers
                     }
                 }
             }
-            catch (SqlException ex)
+            catch (SqlException)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while logging in");
             }
