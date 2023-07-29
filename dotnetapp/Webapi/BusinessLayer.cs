@@ -8,7 +8,6 @@ namespace Webapi
             return (dal.SaveUser(user));
         }
          
-
         public List<UserModel> getProfile()
         {
             return dal.getProfile();
