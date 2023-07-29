@@ -1,9 +1,8 @@
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> e622a6721d0a7e4843fd878d084e4a48159a3886
+
+
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Adminnavigation from "./components/AdminPage/Adminnavigation/Adminnavigation";
